@@ -6,6 +6,8 @@ mkdir $1/lib $1/project $1/target
 echo "name := \"$1\"" > $1/build.sbt
 echo 'version := "1.0"' >> $1/build.sbt
 echo 'scalaVersion := "2.11.8"' >> $1/build.sbt
+
+# Add ScalaCheck as dependency
 echo "libraryDependencies += \"org.scalacheck\" %% \"scalacheck\" % \"1.12.5\" % \"test\"" >> $1/build.sbt
 
 # Add Eclipse plugin to generate project
