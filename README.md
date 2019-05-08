@@ -1,8 +1,8 @@
-# SBT Project
+# SBT Project Setup
 
-This simple script create a SBT project for Java and Scala. To use it:
+This simple script creates a SBT project for Java and Scala. To use it:
 
-> .setup.sbt.bash MyProjectFolder
+    ./create.sbt.sh MyProject
 
 It will:
 
