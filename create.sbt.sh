@@ -16,7 +16,7 @@ version := \"1.0\"
 scalaVersion := \"2.10.0\"" > build.sbt
 
 # Add ScalaCheck as dependency
-echo "libraryDependencies += \"org.scalacheck\" %% \"scalacheck\" % \"1.12.5\" % \"test\"" >> "$1/build.sbt"
+echo "libraryDependencies += \"org.scalacheck\" %% \"scalacheck\" % \"1.12.5\" % \"test\"" >> "build.sbt"
 
 # Add Eclipse plugin to generate project
-echo "addSbtPlugin(\"com.typesafe.sbteclipse\" % \"sbteclipse-plugin\" % \"4.0.0\")" > "$1/project/pluins.sbt"
+echo "addSbtPlugin(\"com.typesafe.sbteclipse\" % \"sbteclipse-plugin\" % \"4.0.0\")" > "project/pluins.sbt"
